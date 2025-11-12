@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm install typescript && node node_modules/typescript/bin/tsc && npm run vite-build",
-    "type-check": "node node_modules/typescript/bin/tsc",
+    "build": "npm install typescript && npx tsc && npm run vite-build",
+    "type-check": "npx tsc",
     "vite-build": "vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
