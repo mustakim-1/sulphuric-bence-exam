@@ -10,8 +10,7 @@
     "vite-build": "vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "tunnel": "localtunnel --port 5174",
-    "postinstall": "chmod +x node_modules/.bin/tsc"
+    "tunnel": "localtunnel --port 5174"
   },
   "dependencies": {
     "react": "^19.2.0",
