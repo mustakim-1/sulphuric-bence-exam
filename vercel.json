@@ -1,9 +1,5 @@
 {
+  "installCommand": "npm install",
   "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "build": {
-    "env": {
-      "NPM_CONFIG_UNSAFE_PERM": "true"
-    }
-  }
+  "outputDirectory": "dist"
 }
